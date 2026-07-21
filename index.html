@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirisha Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h2>Shirisha Store</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <div id="cart-count">
+            🛒 Cart: <span id="count">0</span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Shirisha Store</h1>
+        <p>Find the best gadgets at affordable prices.</p>
+        <button onclick="scrollToProducts()">Shop Now</button>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="products">
+
+        <div class="product-card">
+            <img src="images/wireless headphones.jpeg" alt="Headphones">
+            <h3>Wireless Headphones</h3>
+            <p>₹999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/smart watch.jpeg" alt="Smart Watch">
+            <h3>Smart Watch</h3>
+            <p>₹1999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+
+             <img src="images/gaming keyboard.jpeg" alt="Keyboard">
+            <h3>Gaming Keyboard</h3>
+            <p>₹1499</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+
+            <img src="images/wireless mouse.jpeg" alt="Mouse">
+            <h3>Wireless Mouse</h3>
+            <p>₹799</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Shirisha Store | E-Commerce Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Shirisha Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <form class="login-form">
+
+        <h2>Create Account</h2>
+
+        <input type="text" placeholder="Full Name" required>
+
+        <input type="email" placeholder="Email Address" required>
+
+        <input type="text" placeholder="Username" required>
+
+        <input type="password" placeholder="Password" required>
+
+        <input type="password" placeholder="Confirm Password" required>
+
+        <button type="button" onclick="register()">
+            Register
+        </button>
+
+        <p>
+            Already have an account?
+            <a href="login.html">Login</a>
+        </p>
+
+    </form>
+</div>
+
+<script>
+function register(){
+    alert("Registration Successful!");
+    window.location.href = "login.html";
+}
+</script>
+
+</body>
+</html>
